@@ -66,7 +66,7 @@ export class AccountsComponent implements OnInit {
           this.handleSearchAccount()
         }),
         error : (err => {
-          alert("solde insuffisant!")
+          alert("erreur d'operation!")
         })
       })
 
@@ -90,7 +90,7 @@ export class AccountsComponent implements OnInit {
           this.handleSearchAccount()
         }),
         error : (err => {
-          alert("solde insuffisant!")
+          alert("erreur d'operation!")
         })
       })
     }
